@@ -1,7 +1,13 @@
-rule-applier
+rule-engine
 ============
 
 Simple application to prototype a basic RuleEngine that applies a set of rules to a list of arguments
+
+Why Maven?
+----------
+
+The use of maven here is just for the sake of making it easier the jar generation and project generation for the IDE.
+Hopefully it doesn't add too much noice to the whole app.
 
 How to run
 ----------
@@ -32,9 +38,3 @@ If you'd rather run this on the command line, then just generate the jar file by
 Then execute the program like this:
 
 	java -jar target/engine-1-0.jar 100 50 30 50 60 20 5000
-
-
-Why Maven?
-==========
-The use of maven here is just for the sake of making it easier the jar generation and project generation for the IDE.
-Hopefully it doesn't add too much noice to the whole app.
